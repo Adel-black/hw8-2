@@ -2,7 +2,7 @@ package ru.netology.statistic;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StatisticServiceTest {
 
@@ -17,6 +17,7 @@ public class StatisticServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxNotFirst() {
         StatisticService service = new StatisticService();
